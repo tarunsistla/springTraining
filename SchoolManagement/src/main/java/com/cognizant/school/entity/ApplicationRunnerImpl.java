@@ -17,23 +17,6 @@ public class ApplicationRunnerImpl implements ApplicationRunner  {
 	@Autowired
 	private Classroom classroom;
 	
-	/*public void addBook() {
-		library.addBook();
-	}
-	
-	
-	public void addStudent() {
-	 classroom.addStudent();
-	}
-	
-	public void librarydetails() {
-		library.displayBookDetails();
-	}
-	
-	public void displayStudentDetails() {
-		classroom.displayStudentDetails();
-	}*/
-	
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		library.displayBookDetails();
